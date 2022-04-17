@@ -1,16 +1,192 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer utilities {
+  .ButtonC {
+    top: 50px;
+    left: 721px;
+    width: 37px;
+    height: 38px;
+    background: #1f9547 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .ButtonCWhite {
+    top: 50px;
+    left: 721px;
+    width: 37px;
+    height: 38px;
+    background: 'white 0% 0% no-repeat padding-box';
+    border: 2px solid #1f9547;
+    opacity: 1;
+  }
+  .Button2 {
+    top: 50px;
+    left: 820px;
+    width: 38px;
+    height: 38px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid #1f9547;
+    opacity: 1;
+  }
 
-* {
-  box-sizing: border-box;
+  .containerImage {
+    left: 1197px;
+    width: 122px;
+    height: 26px;
+    opacity: 1;
+  }
+
+  .sideBar {
+    top: 79px;
+    left: 0px;
+    width: 325px;
+    height: 690px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+  }
+
+  .oficina {
+    top: 168px;
+    left: 45px;
+    width: 233px;
+    height: 56px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 26px Lato;
+    letter-spacing: 0px;
+    color: #1f9547;
+    opacity: 1;
+  }
+  .formC {
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 26px Lato;
+    letter-spacing: 0px;
+    color: #1f9547;
+    opacity: 1;
+  }
+  .formC2 {
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 17px Lato;
+    letter-spacing: 0px;
+    color: #1f9547;
+    opacity: 1;
+  }
+  .search {
+    top: 247px;
+    left: 45px;
+    width: 236px;
+    height: 25px;
+    /* UI Properties */
+    background: #efefef 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+  }
+
+  .selectButton {
+    top: 689px;
+    left: 58px;
+    width: 209px;
+    height: 36px;
+    /* UI Properties */
+    background: #3f3f41 0% 0% no-repeat padding-box;
+    border-radius: 31px;
+    opacity: 1;
+  }
+
+  .selectButtonWord {
+    top: 699px;
+    left: 116px;
+    width: 94px;
+    height: 17px;
+    text-align: center;
+    font: normal normal 900 23px Lato;
+    letter-spacing: 0.68px;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .cityContainer {
+    top: 312px;
+    width: 135px;
+    height: 46px;
+    opacity: 1;
+  }
+  .boldWord {
+    /* Layout Properties */
+    top: 312px;
+    left: 85px;
+    height: 16px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 900 13px Lato;
+    letter-spacing: 0.52px;
+    color: #3f3f41;
+    opacity: 1;
+  }
+  .searchWord {
+    top: 254px;
+    left: 75px;
+    width: 65px;
+    height: 13px;
+    text-align: left;
+    font: normal normal 600 13px/19px Lato;
+    letter-spacing: 0.65px;
+    color: #a7a7a7;
+    opacity: 1;
+  }
+  .circle {
+    top: 329px;
+    left: 55px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  .containerCity2 {
+    top: 312px;
+    left: 85px;
+    height: 46px;
+    /* UI Properties */
+    opacity: 1;
+  }
+  .wordSemiBold {
+    top: 335px;
+    left: 85px;
+    width: 135px;
+    height: 10px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 10px/14px Lato;
+    letter-spacing: 0px;
+    color: #a5a5a5;
+    opacity: 1;
+  }
+  .backWord {
+    top: 56px;
+    left: 550px;
+    width: 43px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/22px Lato;
+    letter-spacing: 0.72px;
+    color: #191919;
+    opacity: 1;
+  }
+  .formInfo {
+    /* UI Properties */
+    letter-spacing: 0.64px;
+    color: #7d7d7d;
+    opacity: 1;
+  }
+  .buttonModal {
+    border: 2px solid #1f9547;
+    border-radius: 31px;
+    opacity: 1;
+  }
 }

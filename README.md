@@ -1,14 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+To run this project
+node js version 16.14
+instalar yarn (en caso de error de ejecución de script abrir powershell como administrador y ejecturar "Set-ExecutionPolicy RemoteSigned" dandole si a todo)
 
-```bash
-npm run dev
-# or
+ubicado en la carpeta del proyecto ejecutar
+yarn install
 yarn dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
