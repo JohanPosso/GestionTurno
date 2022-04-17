@@ -28,7 +28,7 @@ const Form = ({ selectedLocation }) => {
 
     var params = {
       key: api_key,
-      url: `https://gestion-turnos-p0kkro6nb-johanposso.vercel.app/pdf?nombre=${name
+      url: `https://gestion-turnos.vercel.app/pdf?nombre=${name
         ?.concat(' ')
         ?.concat(subName)
         ?.concat(' ')
